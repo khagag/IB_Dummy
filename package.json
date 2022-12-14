@@ -1,0 +1,13 @@
+{
+  "name": "IB_Dummy",
+  "version": "1.0.0",
+  "description": "dummy project to accept request and return ack response till IB getts ready",
+  "main": "index.js",
+  "repository": "https://github.com/khagag/IB_Dummy.git",
+  "author": "kareem hagag",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express.js": "^1.0.0"
+  }
+}
