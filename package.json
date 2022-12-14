@@ -1,13 +1,16 @@
 {
-  "name": "IB_Dummy",
-  "version": "1.0.0",
-  "description": "dummy project to accept request and return ack response till IB getts ready",
-  "main": "index.js",
-  "repository": "https://github.com/khagag/IB_Dummy.git",
-  "author": "kareem hagag",
-  "license": "MIT",
-  "private": false,
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
   "dependencies": {
-    "express.js": "^1.0.0"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
